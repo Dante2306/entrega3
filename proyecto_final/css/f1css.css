@@ -1,0 +1,812 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+:root{
+--primary: #E10600; 
+}
+
+
+*{
+
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 62.5%;
+}
+
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+header{
+    display: flex;
+    background-color: var(--primary);
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.margen{
+    flex-wrap: wrap;
+    margin: 0px 120px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 41.12px;
+    margin-top: 16px;
+    margin-bottom: 16px
+    
+}
+
+.hamburger{
+    display: none;
+}
+
+.links{
+    gap: 30px;
+    margin-right: 8px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links2{
+    width: 86px;
+    height: 30px;
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+    text-align: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.logo{
+    width: 170px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Banner */
+
+.banner{
+   display: grid;
+   
+   background-color: black;
+   height: 350px;
+}
+
+.tiba{
+    color: #ffff;
+    font-size: 44px;
+    text-align: center;
+    height: 350px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+}
+    
+
+
+/* MAIN*/
+
+.main{
+    padding: 0 120px;
+}
+
+.intro{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.b3izq{
+    max-width: 500px;
+
+}
+
+.tituloizq{
+    font-size: 32px;
+    font-weight: 350;
+    margin: 0px;
+}
+
+.fotoizq{
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.parrafoizq{
+    margin: 0px;
+    font-weight: 350;
+    margin-bottom: 50px;
+}
+
+.boton{
+    font-size: 25px;
+    text-decoration: none;
+    color: #E10600;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.boton svg {
+    transition: all 1.9s ease-in;
+}
+
+.boton:hover svg {
+    transform: translateX(2000px);
+}
+
+.b3der{
+    max-width: 500px;
+}
+
+.autos{
+    max-width: 500px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .intro{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 975px) {
+
+    .margen{
+        margin: 0px;
+    }
+
+    .main{
+        padding: 0px;
+        display: grid;
+        padding: 0px 10px;
+    }
+
+    .b3izq{
+        max-width: 300px;
+    }
+
+    .fotoizq{
+        max-width: 300px;
+    }
+
+    .b3der{
+        max-width: 300px;
+    }
+
+    .autos {
+        max-width: 300px;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    
+}
+
+
+/*  MAIN PAGINA INICO CON BOX MODELING (NO HACE RESPONSIVE) 
+.intro{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+
+
+
+.b3izq{
+    width: 500px;
+    height: 484px ;
+    margin-top: 50px;
+}
+
+.tituloizq{
+    width: 350px;
+    height: 50px;
+    margin: 0px;
+    font-size: 32px;
+}
+
+.fotoizq{
+    max-width: 500px;
+    max-height: 300px;
+    margin-top: 14px;
+}
+
+.parrafoizq{
+    width: 500px;
+    height: 120px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.b3der{
+    width: 500px;
+    height: 470px;
+    margin-top: 50px;
+    
+}
+
+.autos{
+    max-width: 500px;
+    max-height: 470px;
+}
+
+
+*/
+
+
+/*Años 50*/
+
+.margen50{
+    width: 100%;
+    height: 100%;
+    padding: 0px 120px;
+
+}
+
+.años50{
+    width: 100%;
+    height: 100%;
+    padding: 45px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.izq50{
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.superior50{
+    max-width: 400px;
+}
+
+.titulo50{
+    font-size: 32px;
+    font-weight: 340;
+    margin-top: 0px;
+}
+
+.podio50{
+    font-size: 20px;
+    font-weight: 350;
+    padding-left: 23px;
+    margin: 0px;
+}
+
+.estadisticas50{
+    display: flex;
+    max-width: 588.08px;
+    margin-top: 30px;
+}
+
+.estadisticas50 ul{
+    padding-left: 25px;
+}
+
+.fangio{
+    max-width: 189px;
+}
+
+.ascari{
+    max-width: 189px;
+}
+
+.moss{
+    max-width: 189px;
+}
+
+.inferior50{
+    max-width: 570px;
+    margin-top: 30px;
+}
+
+.der50{
+    max-width: 50%;
+}
+
+@media screen and (max-width:1419px) {
+    .izq50{
+        max-width: 100%;
+    }
+
+    .der50{
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:810px) {
+
+    .estadisticas50{
+        flex-wrap: wrap;
+    }
+
+  
+    .inferior50{
+        display: flex;
+    }
+    
+    .fotofangio{
+        width: 50%;
+    }
+    .fotoascari{
+        width: 50%;
+    }
+    .fotomoss{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    .margen50{
+        padding: 0 40px;
+    }
+
+    .estadisticas50{
+        flex-wrap: wrap;
+    }
+
+  
+    .inferior50{
+        display: block;
+    }
+    
+    .fotofangio{
+        width: 88%;
+    }
+    .fotoascari{
+        width: 88%;
+    }
+    .fotomoss{
+        width: 88%;
+    }
+}
+
+
+
+/* Años 50 (BOX Modeling NO RESPONSIVE)*/
+/* Años 50 Izquierda (BOX Modeling NO RESPONSIVE)*/
+
+/*
+.margen50{
+    padding: 0 120px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.años50{
+    width: 100%;
+    height: 100%;
+    margin: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.izq50{
+    width: 578.12px;
+    height: 1115px;
+    margin-right: 50px;
+}
+
+.superior50{
+    width: 400px;
+    height: 165.62px;
+    
+}
+
+.titulo50{
+    width: 400px;
+    height: 75px;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.podio50{
+    width: 400px;
+    height: 90px;
+    padding-left: 25px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.estadisticas50{
+    width: 588.08px;
+    height: 210px;
+    margin-top: 37px;
+    font-size: 16px;
+    display: flex;
+}
+
+.fangio{
+    width: 189.26px;
+    height: 210px;
+}
+
+.ascari{
+    width: 189.26px;
+    height: 210px;
+    margin: 0px 5px;
+}
+
+.moss{
+    width: 189.26px;
+    height: 210px;
+}
+
+.estadisticasfangio{
+    width: 185px;
+    height: 42px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.estadisticasascari{
+    width: 185px;
+    height: 42px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.estadisticasmoss{
+    width: 185px;
+    height: 42px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.listafangio{
+    margin-top: 30px;
+    width: 185px;
+    height: 168px;
+    padding-left: 15px;
+}
+
+.listaascari{
+    margin-top: 30px;
+    width: 185px;
+    height: 168px;
+    padding-left: 15px;
+}
+
+.listamoss{
+    margin-top: 30px;
+    width: 185px;
+    height: 168px;
+    padding-left: 15px;
+}
+
+.inferior50{
+    width: 570.08px;
+    height: 677px;
+    margin-top: 25px;
+}
+
+.fotofangio{
+    width: 570px;
+    height: 295px;
+}
+
+.fotoascari{
+    width: 570.08px;
+    height: 364.95px;
+    margin-top: 17px;
+}
+*/
+/*Años 50 Derecha (Box Modeling NO RESPONSIVE) */
+/*
+.der50{
+    width: 505.7px;
+    height: 1112.84px;
+}
+
+.superior50der{
+    width: 502.27px;
+    height: 673.84px;
+}
+
+.p1_50{
+    width: 500px;
+    height: 150px;
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.p2_50{
+    width: 500px;
+    height: 114.98;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.p3_50{
+    width: 500px;
+    height: 141px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.p4_50{
+    width: 500px;
+    height: 236px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.fotomoss{
+    width: 497.69px;
+    height: 364.95px;
+    margin-top: 82px;
+    margin-bottom: 0px;
+}
+
+
+h1 {
+    float: right;
+}
+
+
+*/
+
+
+
+/*Años 60*/
+
+.margen60{
+    width: 100%;
+    height: 100%;
+    padding: 0px 120px;
+
+}
+
+.años60{
+    width: 100%;
+    height: 100%;
+    padding: 45px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.izq60{
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.superior60{
+    max-width: 400px;
+}
+
+.titulo60{
+    font-size: 32px;
+    font-weight: 340;
+    margin-top: 0px;
+}
+
+.podio60{
+    font-size: 20px;
+    font-weight: 350;
+    padding-left: 23px;
+    margin: 0px;
+}
+
+.estadisticas60{
+    display: flex;
+    max-width: 588.08px;
+    margin-top: 30px;
+}
+
+.estadisticas60 ul{
+    padding-left: 25px;
+}
+
+.clark{
+    max-width: 189px;
+}
+
+.hill{
+    max-width: 189px;
+}
+
+.brabham{
+    max-width: 189px;
+}
+
+.inferior60{
+    max-width: 570px;
+    margin-top: 30px;
+}
+
+.der60{
+    max-width: 50%;
+}
+
+@media screen and (max-width:1419px) {
+    .izq60{
+        max-width: 100%;
+    }
+
+    .der60{
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:810px) {
+
+    .estadisticas60{
+        flex-wrap: wrap;
+    }
+    .fotofangio{
+        width: 88%;
+    }
+    .fotoascari{
+        width: 88%;
+    }
+    .fotomoss{
+        width: 88%;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    .margen60{
+        padding: 0 40px;
+    }
+}
+
+/*Años 70*/
+
+.margen70{
+    width: 100%;
+    height: 100%;
+    padding: 0px 120px;
+
+}
+
+.años70{
+    width: 100%;
+    height: 100%;
+    padding: 45px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.izq70{
+    max-width: 50%;
+
+}
+
+
+
+
+
+.titulo70{
+    font-size: 32px;
+    font-weight: 340;
+    margin-top: 0px;
+}
+
+.podio70{
+    font-size: 20px;
+    font-weight: 350;
+    padding-left: 23px;
+    margin: 0px;
+}
+
+.estadisticas70{
+    display: flex;
+    max-width: 588.08px;
+    margin-top: 30px;
+}
+
+.estadisticas70 ul{
+    padding-left: 25px;
+}
+
+.clark{
+    max-width: 189px;
+}
+
+.hill{
+    max-width: 189px;
+}
+
+.brabham{
+    max-width: 189px;
+}
+
+.inferior70{
+    max-width: 570px;
+    margin-top: 30px;
+}
+
+.der70{
+    max-width: 50%;
+    
+}
+
+.p3_70{
+    margin-bottom: 36px;
+    margin-top: 0px;
+}
+
+.p5_70{
+    margin-bottom: 36px;
+    margin-top: 0px;
+}
+
+.p1_70{
+    margin: 0px;
+}
+.p2_70{
+    margin: 0px;
+}
+.p4_70{
+    margin: 0px;
+}
+.p6_70{
+    margin: 0px;
+}
+.p7_70{
+    margin: 0px;
+}
+.p8_70{
+    margin: 0px;
+}
+
+@media screen and (max-width:1419px) {
+    .izq70{
+        max-width: 100%;
+    }
+
+
+@media screen and (max-width:810px) {
+
+    .estadisticas70{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    .margen70{
+        padding: 0 40px;
+    }
+}
+}

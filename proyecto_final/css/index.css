@@ -1,0 +1,170 @@
+/* import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+/*variable*/
+:root{
+    /* palette */
+    --primary: #E10600; 
+    --accent: #15151E;
+    --secondary: #FFFFFF;
+    --letra: #000000;
+
+    /* font-size*/
+    --text-xxl: 4.8em;
+    --text-xl: 3.2em;
+    --text-lg: 2.0em;
+    --text-md: 1.6em;
+    --text-sm: 1.2em;
+    
+    /* spacings */
+
+    --sp-xll: 13rem;
+    --sp-xl: 12rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.4rem;
+    --sp-sm: 1.6rem;
+    --sp-xs: 0.8rem;
+
+
+}
+
+/*normalize*/
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 62.5%;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-md);
+    color: var(--letra);
+    width: max-content;
+    height: max-content;
+} 
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    font-size: var(--text-lg);
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header{
+    height: 148px;
+    width: 1440px;
+    padding: 16px;
+    background-color: var(--primary);
+    display: flex;
+  align-items: center;
+
+}
+
+
+
+.navbar .menu__link {
+    display: inline-block;
+
+}
+
+
+
+.navbar .menu {
+    display: inline-block;
+    margin-inline-start: 525px;
+}
+
+.navbar .menu .menu__item {
+    display: inline-block;
+}
+
+
+.navbar .menu .menu__link {
+    color: var(--secondary);
+    font-size: 20px;
+    display: in;
+}
+
+/* Header */
+
+
+/* Footer */
+
+footer{
+    height: 62px;
+    width: 1440px;
+    padding: 16px;
+    background-color: var(--primary);
+}
+
+.box {
+    width: 1408px;
+    height: 30px;
+}
+
+
+/* Footer */
+
+/* Titulo */
+
+#titulo {
+    width: 1440px;
+    height: 350px;
+}
+
+
+
+/* Titulo */
+
+/* Intro */
+
+
+.introizq {
+    width: 542px;
+    height: 422px;
+    display: inline-block;
+  
+}
+
+.introder {
+    width: 568px;
+    height: 422px ;
+    display: inline-block;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.introizq img {
+    padding-top: 20px;
+    padding-bottom: 0px;
+   
+}
+
+.introizq p {
+    font-size: 12px;
+    margin-left: 10px;
+    padding-top: 0px;
+}
+
+.introder p{
+
+    
+}
